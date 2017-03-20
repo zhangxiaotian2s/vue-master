@@ -1,3 +1,12 @@
+// 为了配合佰佳高尔夫的分享设置。
+// npm install vue-master;
+// import MasterSetShare from 'vue-master/master-set-share';
+// Vue.use(MasterSetShare);
+// 使用 this.$setShare({
+// title:'',summary:'',url:'',image:'' 
+// })
+
+
 const MasterSetShare = {}
 
 MasterSetShare.install = function (Vue) {
