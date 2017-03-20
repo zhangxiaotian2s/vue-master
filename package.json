@@ -1,0 +1,19 @@
+{
+  "name": "vue-master",
+  "version": "1.0.0",
+  "description": "本人为马斯特公司专门整理的vue2 独用插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxiaotian2s/vue-master.git"
+  },
+  "author": "zhangxiaotian2s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxiaotian2s/vue-master/issues"
+  },
+  "homepage": "https://github.com/zhangxiaotian2s/vue-master#readme"
+}
