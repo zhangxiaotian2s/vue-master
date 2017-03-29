@@ -9,9 +9,10 @@
 
 const MasterSetShare = {}
 
-MasterSetShare.install = function (Vue) {
+MasterSetShare.install = function (Vue, Options) {
+
   Vue.prototype.$setShare = function (mes) {
-    mes = Object.assign({}, global.SHAER_MES, mes);
+    mes = Object.assign({}, Options, mes);
     document.querySelectorAll('title')[0].innerHTML = `${mes.title}`;
     let description = document.querySelector('meta[name="description"]'),
       share_title = document.querySelector('meta[name="share-title"]'),
@@ -19,7 +20,6 @@ MasterSetShare.install = function (Vue) {
       share_url = document.querySelector('meta[name="share-url"]'),
       share_image = document.querySelector('meta[name="share-image"]');
 
-    console.log(description);
     if (share_title) {
       share_title.setAttribute('content', mes.title);
     }

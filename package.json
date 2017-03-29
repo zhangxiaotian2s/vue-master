@@ -1,19 +1,83 @@
 {
-  "name": "vue-master",
-  "version": "1.0.0",
-  "description": "本人为马斯特公司专门整理的vue2 独用插件",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "vue-master",
+        "scope": null,
+        "escapedName": "vue-master",
+        "name": "vue-master",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/zhangxiaotian/web_home/baijia/h5app/newclub"
+    ]
+  ],
+  "_from": "vue-master@latest",
+  "_id": "vue-master@1.0.3",
+  "_inCache": true,
+  "_location": "/vue-master",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/vue-master-1.0.3.tgz_1490175943271_0.43156553874723613"
   },
+  "_npmUser": {
+    "name": "zhangxiaotian2s",
+    "email": "506834853@qq.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-master",
+    "scope": null,
+    "escapedName": "vue-master",
+    "name": "vue-master",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-master/-/vue-master-1.0.3.tgz",
+  "_shasum": "6b667da68380585e97e858542c0c9f9baf40a9ba",
+  "_shrinkwrap": null,
+  "_spec": "vue-master",
+  "_where": "/Users/zhangxiaotian/web_home/baijia/h5app/newclub",
+  "author": {
+    "name": "zhangxiaotian2s"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangxiaotian2s/vue-master/issues"
+  },
+  "dependencies": {},
+  "description": "本人为马斯特公司专门整理的vue2 独用插件",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6b667da68380585e97e858542c0c9f9baf40a9ba",
+    "tarball": "https://registry.npmjs.org/vue-master/-/vue-master-1.0.3.tgz"
+  },
+  "gitHead": "d0799dae7c3ea5e4073573c790db11cfdf615d9a",
+  "homepage": "https://github.com/zhangxiaotian2s/vue-master#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zhangxiaotian2s",
+      "email": "506834853@qq.com"
+    }
+  ],
+  "name": "vue-master",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhangxiaotian2s/vue-master.git"
   },
-  "author": "zhangxiaotian2s",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhangxiaotian2s/vue-master/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/zhangxiaotian2s/vue-master#readme"
+  "version": "1.0.3"
 }
