@@ -24,17 +24,9 @@
         console.log(val)
       }
     },
-    events: {
-      backAppFn(url) {
-        console.log('xxxxx')
-      }
-    },
-    mounted() {
-      console.log(this)
-    },
+    mounted() {},
     methods: {
       backAppFn(url = global.BACK_URL) {
-        console.log(global.BOOL_OUT_WX)
         if (global.BOOL_OUT_WX) {
           window.location.href = url;
           setTimeout(function () {
