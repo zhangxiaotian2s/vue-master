@@ -19,11 +19,6 @@
       </div>
   </div>`,
     props: ['backurl'],
-    watch: {
-      back_url(newVal, oldVal) {
-        console.log(val)
-      }
-    },
     mounted() {},
     methods: {
       backAppFn(url = global.BACK_URL) {
